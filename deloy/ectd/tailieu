@@ -1,0 +1,32 @@
+[build and get start]
+[build]
+  http://play.etcd.io/install
+  https://coreos.com/etcd/docs/latest/dl_build.html
+  https://github.com/coreos/etcd/releases/
+--
+  [docker]
+  http://accelazh.github.io/consensus/Play-with-Etcd
+--
+  [demo]
+  https://www.digitalocean.com/community/tutorials/how-to-use-etcdctl-and-etcd-coreos-s-distributed-key-value-store
+  https://github.com/coreos/etcd/blob/master/Documentation/demo.md
+[standalone-cluster]
+https://coreos.com/etcd/docs/latest/dev-guide/local_cluster.html
+[clustering-cluster]
+https://coreos.com/etcd/docs/latest/op-guide/clustering.html
+[list configuration]
+https://coreos.com/os/docs/latest/configuration.html
+[runtime reconfiguration]
+https://coreos.com/etcd/docs/latest/etcd-live-cluster-reconfiguration.html
+[systemd configuration]
+https://coreos.com/os/docs/latest/using-systemd-drop-in-units.html
+  [example duongmn]
+  $cat /etc/systemd/system/etcd.service
+[container configuration]
+https://coreos.com/os/docs/latest/clc-examples.html
+[admin]
+https://coreos.com/etcd/docs/latest/v2/admin_guide.html
+  [backend]
+  google: etcd member/snap/db
+[openstack and ectd]
+https://docs.openstack.org/install-guide/environment-etcd.html

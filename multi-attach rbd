@@ -1,0 +1,24 @@
+de lam gi , cho boot hay gan them vao.
+future: 
+  create nhieu server tu 1 mutipleattrach volume trong 1 request,
+  cho phep chon mode attach ro rw
+  suport more compute driver, storage backend 
+  tra " suport driver in queens cinder " : lvm, oracle zfssa, solidfire"
+rbd:
+http://www.sebastien-han.fr/blog/2012/07/06/nfs-over-rbd/
+openstack :
+horizon can't suport: error Multiattach volumes are only supported starting with compute API version 2.60.
+https://blueprints.launchpad.net/horizon/+spec/multi-attach-volume
+https://bugs.launchpad.net/horizon/+bug/1751564
+co link video : https://blueprints.launchpad.net/horizon/+spec/multi-attach-volume
+February 28, 2018 nova cinder: ok co link video:
+http://superuser.openstack.org/articles/meet-volume-multi-attach-great-new-feature-openstack-queens/
+nova:
+https://docs.openstack.org/nova/latest/admin/manage-volumes.html#volume-multi-attach
+cinder:
+https://docs.openstack.org/cinder/latest/admin/blockstorage-volume-multiattach.html
+devstack:
+build tren goi cua pike, libvirt too old, qemu too new
+them:
+
+

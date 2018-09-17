@@ -1,0 +1,19 @@
+Tìm hiểu về Ansible
+- Ansible dùng để làm gì
+- Tìm hiểu cơ bản về ansible (roles, module, playbook, variable (group var, host var …)
+======================================================================================
+Đọc lại code ansible của Thành để hiểu hết code triển khai.
+Lưu ý viết để có thể triển khai nhiều cụm Ceph khác nhau, với mô hình triển khai mỗi cụm khác nhau.
+- Cho phép chỉ định rõ các roles sau:
+o Role ETCD: Cài etcd cluster + keepalived
+o Role Mon: Các node sẽ cài Ceph-Mon
+o Role Mgr: Các node sẽ cài Ceph-Mgr
+o Role OSD: Các node sẽ cài Ceph-OSD
+- Cho phép chỉ định host nào sẽ cài role nào.
+- Với danh sách các host cài OSD thì mỗi host sẽ có list ổ cứng cụ thể.
+- Cho phép tùy chọn ổ cứng lưu trữ phân vùng WAF, DB:
+o Cùng ổ đĩa với OSD
+o Hoặc lưu trên 1 ổ đĩa khác. Nếu dùng ổ đĩa khác thì tất cả các OSD sẽ lưu phân vùng WAF, DB trên cùng ổ đĩa khác này.
+- Cho phép tùy chọn cluster network, public network.
+- Tạo các pool với số lượng pg tương ứng.
+- Tạo các user client với phân quyền tương ứng (Lấy về thông tin keyring từng client)

@@ -1,0 +1,17 @@
+\\ ceph deloy
+http://docs.ceph.com/docs/mimic/rados/deployment/
+nho them proxy vao cho /etc/enviroment/
+\\(dung ban mimic di:
+"echo deb http://download.ceph.com/debian-mimic/ trusty main | sudo tee /etc/apt/sources.list.d/ceph.list"
+, dối chiếu với quickstart.
+http://docs.ceph.com/docs/mimic/start/
+)
+\\ giải thích thêm
+https://www.suse.com/documentation/ses-4/book_storage_admin/data/storage_bp_inst_cephdeploy_usage.html
+\\y nghĩa bluestore
+http://storageconference.us/2017/Papers/CephObjectStore.pdf
+https://www.sebastien-han.fr/blog/2016/03/21/ceph-a-new-store-is-coming/
+http://docs.ceph.com/docs/mimic/rados/configuration/bluestore-config-ref/
+https://ceph.com/community/new-luminous-bluestore/
+\\co dien
+https://github.com/hocchudong/Ghichep-Storage/blob/master/ChienND/Ceph/7.%20C%C3%A0i%20%C4%91%E1%BA%B7t%20Ceph-deploy.md

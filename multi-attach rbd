@@ -1,9 +1,4 @@
-de lam gi , cho boot hay gan them vao.
-future: 
-  create nhieu server tu 1 mutipleattrach volume trong 1 request,
-  cho phep chon mode attach ro rw
-  suport more compute driver, storage backend 
-  tra " suport driver in queens cinder " : lvm, oracle zfssa, solidfire"
+
 rbd:
 http://www.sebastien-han.fr/blog/2012/07/06/nfs-over-rbd/
 openstack :
